@@ -1,0 +1,6 @@
+framework module Pods_skin_beauty_sample {
+  umbrella header "Pods-skin-beauty-sample-umbrella.h"
+
+  export *
+  module * { export * }
+}
