@@ -7,12 +7,16 @@
 //
 
 import UIKit
+import GPUImage
 
 class ViewController: UIViewController {
 
+    private var videoCamera: GPUImageVideoCamera?
+    private var videoPreview: GPUImageView?
+    private var beautifyFilter: GPUImageBeautifyFilter?
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
 
 
