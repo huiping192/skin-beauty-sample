@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D0988BE22749BE9003155B4 /* GPUImageEmptyFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0988BD22749BE9003155B4 /* GPUImageEmptyFilter.m */; };
 		7D19F84F2266F1A4004A0D95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D19F84E2266F1A4004A0D95 /* AppDelegate.swift */; };
 		7D19F8512266F1A4004A0D95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D19F8502266F1A4004A0D95 /* ViewController.swift */; };
 		7D19F8542266F1A4004A0D95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D19F8522266F1A4004A0D95 /* Main.storyboard */; };
@@ -19,6 +20,8 @@
 /* Begin PBXFileReference section */
 		0A168740D7D8A13AA5E2C28A /* Pods-skin-beauty-sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-skin-beauty-sample.release.xcconfig"; path = "Target Support Files/Pods-skin-beauty-sample/Pods-skin-beauty-sample.release.xcconfig"; sourceTree = "<group>"; };
 		5423AEA45BFD7940E8F30A46 /* Pods_skin_beauty_sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_skin_beauty_sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D0988BC22749BE9003155B4 /* GPUImageEmptyFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUImageEmptyFilter.h; sourceTree = "<group>"; };
+		7D0988BD22749BE9003155B4 /* GPUImageEmptyFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUImageEmptyFilter.m; sourceTree = "<group>"; };
 		7D19F84B2266F1A4004A0D95 /* skin-beauty-sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "skin-beauty-sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D19F84E2266F1A4004A0D95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7D19F8502266F1A4004A0D95 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -87,6 +90,8 @@
 		7D19F8602266F3F0004A0D95 /* Filter */ = {
 			isa = PBXGroup;
 			children = (
+				7D0988BC22749BE9003155B4 /* GPUImageEmptyFilter.h */,
+				7D0988BD22749BE9003155B4 /* GPUImageEmptyFilter.m */,
 				7D19F8622266F404004A0D95 /* GPUImageBeautifyFilter.h */,
 				7D19F8632266F404004A0D95 /* GPUImageBeautifyFilter.m */,
 				7D19F8612266F403004A0D95 /* skin-beauty-sample-Bridging-Header.h */,
@@ -224,6 +229,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D0988BE22749BE9003155B4 /* GPUImageEmptyFilter.m in Sources */,
 				7D19F8642266F404004A0D95 /* GPUImageBeautifyFilter.m in Sources */,
 				7D19F8512266F1A4004A0D95 /* ViewController.swift in Sources */,
 				7D19F84F2266F1A4004A0D95 /* AppDelegate.swift in Sources */,

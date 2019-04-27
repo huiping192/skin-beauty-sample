@@ -5,3 +5,4 @@
 
 
 #import "GPUImageBeautifyFilter.h"
+#import "GPUImageEmptyFilter.h"
